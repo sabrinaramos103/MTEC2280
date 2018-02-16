@@ -1,3 +1,4 @@
+//program where circle moves away from mouse
 void setup(){
  size(500,500); 
   
