@@ -1,4 +1,4 @@
-//Question 4.
+//Question 4
 
 void setup(){
  size(500,500);
