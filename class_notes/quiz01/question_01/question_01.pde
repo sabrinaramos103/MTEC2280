@@ -1,4 +1,4 @@
-//Question 1
+//Question 1.
 
 void setup(){
  size(500,500); //size of the window
