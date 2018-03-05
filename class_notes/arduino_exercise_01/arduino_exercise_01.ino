@@ -1,19 +1,27 @@
-//gives a variable for the digital pins being ysed
-int led1Pin = 5;
-int led2Pin = 6;
-int led3Pin = 7;
-int led4Pin = 8;
-int led5Pin = 9;
+//gives a variable for the digital pins being used
+//int led1Pin = 5;
+//int led2Pin = 6;
+//int led3Pin = 7;
+//int led4Pin = 8;
+//int led5Pin = 9;
+
+//an array is a collection of variables
+int ledPin[] = {5,6,7,8,9};
 
 
 void setup() {
   // put your setup code here, to run once:
   // variable is used for each pinMode
-  pinMode(led1Pin, OUTPUT);
-  pinMode(led2Pin, OUTPUT);
-  pinMode(led3Pin, OUTPUT);
-  pinMode(led4Pin, OUTPUT);
-  pinMode(led5Pin, OUTPUT);
+  //pinMode(led1Pin, OUTPUT);
+  //pinMode(led2Pin, OUTPUT);
+  //pinMode(led3Pin, OUTPUT);
+  //pinMode(led4Pin, OUTPUT);
+  //pinMode(led5Pin, OUTPUT);
+
+  for(int i = 0; i < 5; i++){
+    pinMode(ledPin[i], OUTPUT);
+  }
+  
 }
 
 void loop() {
