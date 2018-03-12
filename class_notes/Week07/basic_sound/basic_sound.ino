@@ -9,12 +9,12 @@ void setup() {
 void loop() {
   //note one
   //use a for loop to alternate between notes
-  for(int i = 0; i < 100; i++){
+  for(int i = 0; i < 35; i++){
   digitalWrite(4, HIGH);
-  delayMicroseconds(23500);
+  delayMicroseconds(12342);
   
   digitalWrite(4, LOW);
-  delayMicroseconds(23500);
+  delayMicroseconds(12342);
 
   }
 
@@ -23,10 +23,10 @@ void loop() {
   for(int i = 0; i < 100; i++){
 
   digitalWrite(4, HIGH);
-  delayMicroseconds(35100);
+  delayMicroseconds(1000);
 
   digitalWrite(4, LOW);
-  delayMicroseconds(35100);
+  delayMicroseconds(1000);
   }
 
 }
