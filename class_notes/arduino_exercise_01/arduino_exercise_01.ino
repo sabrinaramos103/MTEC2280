@@ -1,64 +1,61 @@
-//gives a variable for the digital pins being used
-//int led1Pin = 5;
-//int led2Pin = 6;
-//int led3Pin = 7;
-//int led4Pin = 8;
-//int led5Pin = 9;
-
-//an array is a collection of variables
-int ledPin[] = {5,6,7,8,9};
-
-
 void setup() {
-  // put your setup code here, to run once:
-  // variable is used for each pinMode
-  //pinMode(led1Pin, OUTPUT);
-  //pinMode(led2Pin, OUTPUT);
-  //pinMode(led3Pin, OUTPUT);
-  //pinMode(led4Pin, OUTPUT);
-  //pinMode(led5Pin, OUTPUT);
-
-  for(int i = 0; i < 5; i++){
-    pinMode(ledPin[i], OUTPUT);
-  }
-  
+  pinMode(3, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(11, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  //sequence starts from first led to last led
-  digitalWrite(led1Pin, HIGH);
-  digitalWrite(led2Pin, LOW);
-  digitalWrite(led3Pin, LOW);
-  digitalWrite(led4Pin, LOW);
-  digitalWrite(led5Pin, LOW);
+
+  //for (int i=0; i<255; i++)
+  digitalWrite(3, HIGH);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
+  digitalWrite(11, LOW);
   delay(100);
   
-  digitalWrite(led1Pin, LOW);
-  digitalWrite(led2Pin, HIGH);
-  digitalWrite(led3Pin, LOW);
-  digitalWrite(led4Pin, LOW);
-  digitalWrite(led5Pin, LOW);
+  digitalWrite(3, LOW);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
+  digitalWrite(11, LOW);
   delay(100);
   
-  digitalWrite(led1Pin, LOW);
-  digitalWrite(led2Pin, LOW);
-  digitalWrite(led3Pin, HIGH);
-  digitalWrite(led4Pin, LOW);
-  digitalWrite(led5Pin, LOW);
+  digitalWrite(3, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(6, HIGH);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
+  digitalWrite(11, LOW);
   delay(100);
   
-  digitalWrite(led1Pin, LOW);
-  digitalWrite(led2Pin, LOW);
-  digitalWrite(led3Pin, LOW);
-  digitalWrite(led4Pin, HIGH);
-  digitalWrite(led5Pin, LOW);
+  digitalWrite(3, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(9, HIGH);
+  digitalWrite(10, LOW);
+  digitalWrite(11, LOW);
   delay(100);
 
-  digitalWrite(led1Pin, LOW);
-  digitalWrite(led2Pin, LOW);
-  digitalWrite(led3Pin, LOW);
-  digitalWrite(led4Pin, LOW);
-  digitalWrite(led5Pin, HIGH);
+  digitalWrite(3, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(10, HIGH);
+  digitalWrite(11, LOW);
   delay(100);
+
+  digitalWrite(3, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
+  digitalWrite(11, HIGH);
+  delay(100);
+
 }
