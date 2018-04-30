@@ -1,4 +1,4 @@
-
+//Group: Sabrina, John, Bryan
 import processing.serial.*;  // import serial library
 
 Serial myPort;  // Create object from Serial class
