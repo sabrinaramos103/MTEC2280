@@ -1,3 +1,4 @@
+//Group: John, Sabrina, Bryan
 #include <Servo.h>
 
 Servo servoX;  // create servo object to control an X axis servo
