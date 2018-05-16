@@ -1,0 +1,6 @@
+The concept of this code is to simulate the Fortnite Salt Emote using a robot arm, as a fun and creative way to move
+the servos and compliment each component together. As for this project, this was achieved using three servos (for X-Axis, 
+Y-Axis, and Z-Axis) which would create the movement replicated with the emote itself. I wanted make this as a fun
+way to salt foods (however, given the circumstances I will have the robot 'throw' salt rather than shake because of 
+the salt shaker constraints regarding the project). I used a combination of our robot arm practice to create this loop
+of salt shaking.
