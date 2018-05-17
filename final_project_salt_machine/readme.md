@@ -1,3 +1,6 @@
+#H1 Robot Arm Salt Machine (Salt Thrower)
+
+
 The concept of this project is to simulate the Fortnite Salt Emote using a robot arm constructed of servos that represents
 the X, Y, and Z axis. While using this the project has minimal movement just to demonstrate the how the robot will react
 with a salt shaker, as this project was originally implemented to use a salt shaker. However, I had to use an alternative with
