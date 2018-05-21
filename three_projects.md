@@ -1,3 +1,6 @@
+3 Artists/Projects
+
+
 The first project is Tristan Perich's Microtonal Wall which emanates different sounds as a person walks further down the speakers. 
 I think this project is interesting because it uses different sounds frequencies in a range from high to low. 
 I believe what I can use to recreate this would be my knowledge of sound (without the sound library) 
